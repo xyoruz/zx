@@ -1,0 +1,10 @@
+[Unit]
+Description=SSH over WebSocket
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /usr/local/bin/ssh-ws.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

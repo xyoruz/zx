@@ -1,0 +1,2 @@
+*/10 * * * * root /usr/local/sbin/xp
+* * * * * root /usr/local/sbin/xlimit
